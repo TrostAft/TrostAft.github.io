@@ -10,14 +10,18 @@ I am a freshmen Computer Science and Mathematics at New York University.
 - Computer Science
     - Data Structures
     - Computer Systems Organization
-    - Basic Algorithms (current)
-    - Operating Systems (current)
+    - Basic Algorithms*
+    - Operating Systems*
 - Mathematics
     - Linear Algebra (Honors)
-    - Numerical Analysis (current)
+    - Numerical Analysis*
+
+Those marked with * are currently being taken.
 
 #### Known Languages:
+
 Not listed in any particular order.
+
 - Java
 - Python
 - C
