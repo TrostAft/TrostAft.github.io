@@ -1,10 +1,8 @@
 ![](Resources/Images/profilepic.jpg)
 
-
 #Abhijit Chowdhary
 
 ##About Me
-
 - Math and CS geek.
 - Likes Scientific computing and numerical methods.
 - See [my Github](https://www.github.com/TrostAft)
@@ -12,7 +10,6 @@
 - Not great at web design (Sorry)
 
 ##Skills
-
 - See [my resume](Resources/Resume/Resume.pdf)
 - Familiarity (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
@@ -27,7 +24,6 @@
     - Part of [Team 2849: Team Ursa Major](http://hammondursamajor.org/)
 
 ##Education
-
 - New York University
     - Computer Science
         - Algorithms*
@@ -44,4 +40,3 @@
     - Statistics
     - English 101
 - Hammond High School
-
