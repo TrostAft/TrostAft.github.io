@@ -1,4 +1,4 @@
-![](images/profilepic.jpg)
+![](Resources/Images/profilepic.jpg)
 
 
 #Abhijit Chowdhary
@@ -9,11 +9,11 @@
 - Likes Scientific computing and numerical methods.
 - See [my Github](https://www.github.com/TrostAft)
 - Will help to research anything
-- Not great a web design (Sorry)
+- Not great at web design (Sorry)
 
 ##Skills
 
-- See [my resume](Resume/Resume.pdf)
+- See [my resume](Resources/Resume/Resume.pdf)
 - Familiarity (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Knows how to use gsl and blas libraries
