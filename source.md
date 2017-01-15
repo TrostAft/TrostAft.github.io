@@ -10,6 +10,7 @@
 
 ##Skills
 - See [my resume](Resources/Resume/Resume.pdf)
+- Linux: User for 2 years. Currently on Arch Linux.
 - Familiarity with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Knows how to use GSL and other C numerical libraries
