@@ -4,16 +4,15 @@
 
 ##About Me
 - Math and CS geek.
-- Likes Scientific computing and numerical methods.
+- Likes scientific computing and optimization.
 - See [my Github](https://www.github.com/TrostAft)
-- Will help to research anything
 - Not great at web design (Sorry)
 
 ##Skills
 - See [my resume](Resources/Resume/Resume.pdf)
-- Familiarity (num/sci/sym)py
+- Familiarity with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
-    - Knows how to use gsl and blas libraries
+    - Knows how to use GSL and other C numerical libraries
 - First Robotics:
     - Student Member while in high school (2012-2016)
     - Adult Mentor now (2016 - Present)
