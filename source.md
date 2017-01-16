@@ -3,14 +3,14 @@
 #Abhijit Chowdhary
 
 ##About Me
-- Math and CS geek.
-- Likes scientific computing and optimization.
+- Math and CS geek
+- Likes scientific computing and optimization
 - See [my Github](https://www.github.com/TrostAft)
 - Not great at web design (Sorry)
 
 ##Skills
 - See [my resume](Resources/Resume/Resume.pdf)
-- Linux: User for 2 years. Currently on Arch Linux.
+- Linux: User for 2 years. Currently on Arch Linux
 - Familiarity with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Knows how to use GSL and other C numerical libraries
@@ -26,17 +26,15 @@
 ##Education
 - New York University
     - Computer Science
-        - Algorithms*
+        - Basic Algorithms*
         - Operating Systems*
         - Numerical Computing*
         - Computer Systems Organization
         - Data Structures
     - Mathematics
-        - Calculus Sequence (HCC)
         - Honors Linear Algebra
     - \* Indicates currently taking
 - Howard Community College
     - Calculus I/II/III
     - Statistics
-    - English 101
 - Hammond High School
