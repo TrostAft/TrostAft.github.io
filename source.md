@@ -28,7 +28,7 @@
     - Computer Science
         - Algorithms*
         - Operating Systems*
-        - Multicore Programming*
+        - Numerical Computing*
         - Computer Systems Organization
         - Data Structures
     - Mathematics

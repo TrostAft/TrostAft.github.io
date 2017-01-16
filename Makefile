@@ -1,4 +1,5 @@
+mrend=webtex
 default: 
-	pandoc -s source.md -o index.html
-	pandoc -s index.html --css css/min_style.css -o index.html
+	pandoc -s --$(mrend) source.md -o index.html
+	pandoc -s index.html --$(mrend) --css css/min_style.css -o index.html
 	cp index.html min.html
