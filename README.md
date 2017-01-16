@@ -1,7 +1,8 @@
-# personalWebsite
-
+#trostaft.github.io
 
 My personal website. 
 
+Hosted at [trostaft.github.io](trostaft.github.io), this is basically a resume type site. 
 
-Currently hosted on http://www.abhijitchowdhary.paperplane.io and holds my resume. 
+
+Alternatively hosted [here](abhijitchowdhary.paperplane.io) for legacy link purposes. 
