@@ -3,7 +3,7 @@
 #Abhijit Chowdhary
 
 ##About Me
-- Math and CS geek
+- Math and CS guy
 - Likes scientific computing and low level CS.
 - See [my Github](https://www.github.com/TrostAft)
 - Not great at web design (Sorry)
