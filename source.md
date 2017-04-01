@@ -17,6 +17,7 @@
 - Knows C and C++ for runtime sensitive simulations
     - Familiarity with GNU Scientific Library
     - See [here](https://github.com/TrostAft/TrostResources/tree/master/LanguageLibs) for some of my small modules. (Mostly Incomplete)
+    - Specifically Vector in C, and Set in C++
 - First Robotics:
     - Student Member while in high school (2012-2016)
         - Build team member (2012-2014)
