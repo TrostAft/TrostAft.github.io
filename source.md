@@ -11,9 +11,11 @@
 ##Skills
 - See [my resume](Resources/Resume/Resume.pdf)
 - Linux: User for 2 years. Currently on Arch Linux
+- Java for systems (Robotics) and for Object-Oriented Design.
 - Familiarity with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Familiarity with GNU Scientific Library
+    - See [here](https://github.com/TrostAft/TrostResources/tree/master/LanguageLibs) for some of my small libraries.)
 - First Robotics:
     - Student Member while in high school (2012-2016)
         - Build team member (2012-2014)
@@ -33,8 +35,12 @@
         - Data Structures
     - Mathematics
         - Honors Linear Algebra
-    - \* Indicates currently taking
+- University of Maryland
+    - Differential Equations*
+    - Theory of Numbers*
 - Howard Community College
     - Calculus I/II/III
     - Statistics
 - Hammond High School
+- \* Currently taking
+- \*\* Shortly Upcoming
