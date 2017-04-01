@@ -4,8 +4,8 @@
 
 ##About Me
 - Math and CS guy
-- Likes numerical stuff and low level CS projects.
-- Has a tendency to start small modules and never finish them.
+- Likes numerical stuff and low level CS projects
+- Has a tendency to start small modules and never finish them
 - See [my Github](https://www.github.com/TrostAft)
 - Not great at web design (sorry)
 
