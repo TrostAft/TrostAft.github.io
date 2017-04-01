@@ -4,9 +4,10 @@
 
 ##About Me
 - Math and CS guy
-- Likes scientific computing and low level CS.
+- Likes numerical stuff and low level CS projects.
+- Has a tendency to start small modules and never finish them.
 - See [my Github](https://www.github.com/TrostAft)
-- Not great at web design (Sorry)
+- Not great at web design (sorry)
 
 ##Skills
 - See [my resume](Resources/Resume/Resume.pdf)
@@ -15,7 +16,7 @@
 - Familiarity with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Familiarity with GNU Scientific Library
-    - See [here](https://github.com/TrostAft/TrostResources/tree/master/LanguageLibs) for some of my small libraries.)
+    - See [here](https://github.com/TrostAft/TrostResources/tree/master/LanguageLibs) for some of my small modules. (Mostly Incomplete)
 - First Robotics:
     - Student Member while in high school (2012-2016)
         - Build team member (2012-2014)
