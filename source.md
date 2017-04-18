@@ -30,16 +30,15 @@
 ##Education
 - New York University
     - Computer Science
-        - Basic Algorithms*
-        - Operating Systems*
-        - Numerical Computing*
+        - Basic Algorithms\*
+        - Operating Systems\*
+        - Numerical Computing\*
         - Computer Systems Organization
         - Data Structures
     - Mathematics
         - Honors Linear Algebra
 - University of Maryland
-    - Differential Equations*
-    - Theory of Numbers*
+    - Theory of Numbers\*\*
 - Howard Community College
     - Calculus I/II/III
     - Statistics
