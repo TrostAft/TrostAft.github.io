@@ -4,7 +4,7 @@
 
 ##About Me
 - Math and CS guy
-- Likes numerical stuff and low level CS projects
+- Likes Numerical and Algebraic stuff.
 - Has a tendency to start small modules and never finish them
 - See [my Github](https://www.github.com/TrostAft)
 - Not great at web design (sorry)
@@ -30,15 +30,22 @@
 ##Education
 - New York University
     - Computer Science
-        - Basic Algorithms\*
-        - Operating Systems\*
-        - Numerical Computing\*
+        - Basic Algorithms
+        - Operating Systems
+        - Numerical Computing
         - Computer Systems Organization
         - Data Structures
+        - Theory of Computation \*\*
     - Mathematics
         - Honors Linear Algebra
+        - Honors Analysis I
+        - Honors Algebra II
+        - Numerical Methods I
+        - Honors Analysis II \*\*
+        - Honors Algebra II \*\*
+        - Topology \*\*
 - University of Maryland
-    - Theory of Numbers\*\*
+    - Theory of Numbers
 - Howard Community College
     - Calculus I/II/III
     - Statistics
