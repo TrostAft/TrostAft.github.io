@@ -1,17 +1,20 @@
-![](profilepic.jpg)
+<head> <title>Abhi's Webpage</title> </head>
 
-#Abhijit Chowdhary
+![](Resources/Images/profilepic.jpg)
+
 ![](https://projecteuler.net/profile/TrostAft.png)
 
-##About Me
+## [See my blog!](./Blog/Blog.html)
+
+## About Me
 - Math and CS guy
 - Likes Numerical Methods and Computational Math.
 - Has a tendency to start small modules and never finish them
 - See [my Github](https://www.github.com/abhijit-c)
 - Not great at web design (sorry)
 
-##Skills
-- See [my resume](Resume.pdf)
+## Skills
+- See [my resume](Resources/Resume/Resume.pdf)
 - Linux: User for 2 years. Currently on Arch Linux
 - Java for systems (Robotics) and for Object-Oriented Design.
 - Familiarity with (num/sci/sym)py
@@ -28,7 +31,7 @@
         - Design and programming mentor (2016-Present)
     - Part of [Team 2849: Team Ursa Major](http://hammondursamajor.org/)
 
-##Education
+## Education
 - New York University
     - Computer Science
         - Basic Algorithms
