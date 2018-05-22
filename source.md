@@ -4,8 +4,6 @@
 
 ![](https://projecteuler.net/profile/TrostAft.png)
 
-## [See my blog!](./Blog/Blog.html)
-
 ## About Me
 - Math and CS guy
 - Likes Numerical Methods and Computational Math.

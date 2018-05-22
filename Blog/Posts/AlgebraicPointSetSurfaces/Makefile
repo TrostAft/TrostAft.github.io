@@ -1,26 +1,5 @@
-name=texResult
-PLatFlags= -jobname=$(name) --shell-escape
-
-default:
-	make build
-	make build
-	make clean
-
-dirty:
-	make build
-	make build
-
-build:
-	pdflatex $(PLatFlags) main.tex
-
-html:
-	htlatex main.tex
-
-htmlclean:
-	mv main.tex temp.tex
-	rm main*
-	mv temp.tex main.tex
-
-clean:
-	rm $(name).log $(name).aux
-	rm -rf _minted-*
+mrend=mathjax
+default: 
+	pandoc -s --$(mrend) source.md -o APSS.html
+	pandoc -s APSS.html --$(mrend) --css ./Resources/min_style.css -o temp.html
+	mv temp.html APSS.html

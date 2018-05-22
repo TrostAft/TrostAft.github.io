@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Algebraic Point Set Surfaces</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="./Resources/min_style.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">Algebraic Point Set Surfaces</h1>
+</header>
+<p><img src="./Resources/Pictures/paper_screenshot.png" /></p>
+<p>A very interesting paper that I used for my final project in my Geometric Modeling class (Taughy by Danielle Panozzo @ NYU). What we want to do is take a basic 3D point cloud without normals to a mesh. The way one would normally think about doing this is estimating the normal vectors, propagating its orientation, and then finally constructing a signed distance function which is used to define a MLS surface. However, this paper takes an interesting bent, in which every one of those steps is accoplished via the fit of an algebraic sphere.</p>
+<h3 id="the-idea">The Idea:</h3>
+<p>We would like to fit a sphere to a set of points, and using that work our way through the pipeline described above. The question is, why an algebraic sphere? The fitting of a sphere to a set of point where we minimize geometric distance to each point is very well studied and is well known to be non-linear, the bane of anything efficient. Instead, the authors of this paper found that if you have the surface normals of the point cloud, by switching to the fitting of an algebraic sphere you can actually achieve a linear solve for the fit.</p>
+<h2 id="definition-of-an-algebraic-sphere">Definition of an Algebraic Sphere</h2>
+<p>Suppose we are working in 3D. An algebraic sphere is defined by the zero iso-surface of some function, specifically of the scalar field <span class="math inline">\(s_u(x) = [1 x x^T]u\)</span> where <span class="math inline">\(u = [u_0,\dots,d_4]^T\)</span> is a vector of scalar coefficients that describes the sphere.</p>
+<h2 id="fit-of-a-sphere-without-normals.">Fit of a sphere without normals.</h2>
+<p>The authors of this paper give a method to fit an algebraic sphere without normals, because they use it to estimate normals later. We’ll get into that.</p>
+<p>First, assume that we have <span class="math inline">\(n\)</span> point around which we would like to fit an</p>
+</body>
+</html>
