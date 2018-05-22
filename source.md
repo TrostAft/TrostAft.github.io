@@ -1,23 +1,24 @@
-![](Resources/Images/profilepic.jpg)
+![](profilepic.jpg)
 
 #Abhijit Chowdhary
+![](https://projecteuler.net/profile/TrostAft.png)
 
 ##About Me
 - Math and CS guy
-- Likes Numerical and Algebraic stuff.
+- Likes Numerical Methods and Computational Math.
 - Has a tendency to start small modules and never finish them
-- See [my Github](https://www.github.com/TrostAft)
+- See [my Github](https://www.github.com/abhijit-c)
 - Not great at web design (sorry)
 
 ##Skills
-- See [my resume](Resources/Resume/Resume.pdf)
+- See [my resume](Resume.pdf)
 - Linux: User for 2 years. Currently on Arch Linux
 - Java for systems (Robotics) and for Object-Oriented Design.
 - Familiarity with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Familiarity with GNU Scientific Library
-    - See [here](https://github.com/TrostAft/TrostResources/tree/master/LanguageLibs) for some of my small modules. (Mostly Incomplete)
-    - Specifically Vector in C, and Set in C++
+    - Familiar with Eigen.
+    - Familiar with libigl.
 - First Robotics:
     - Student Member while in high school (2012-2016)
         - Build team member (2012-2014)
@@ -31,24 +32,21 @@
 - New York University
     - Computer Science
         - Basic Algorithms
-        - Operating Systems
-        - Numerical Computing
         - Computer Systems Organization
         - Data Structures
-        - Theory of Computation \*\*
+        - Geometric Modeling (Grad)
+        - Numerical Computing
+        - Operating Systems
     - Mathematics
+        - Honors Algebra I/II
+        - Honors Analysis I/II
         - Honors Linear Algebra
-        - Honors Analysis I
-        - Honors Algebra II
-        - Numerical Methods I
-        - Honors Analysis II \*\*
-        - Honors Algebra II \*\*
-        - Topology \*\*
+        - Numerical Methods I (Grad)
+        - Topology 
 - University of Maryland
-    - Theory of Numbers
+    - Elementary Number Theory 
+    - Complex Variables
 - Howard Community College
     - Calculus I/II/III
     - Statistics
 - Hammond High School
-- \* Currently taking
-- \*\* Shortly Upcoming
