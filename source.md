@@ -14,12 +14,13 @@
 ## Skills
 - See [my resume](Resources/Resume/Resume.pdf)
 - Linux: User for 2 years. Currently on Arch Linux
-- Java for systems (Robotics) and for Object-Oriented Design.
-- Familiarity with (num/sci/sym)py
+- Fluent with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
-    - Familiarity with GNU Scientific Library
-    - Familiar with Eigen.
-    - Familiar with libigl.
+    - Fluent with Eigen, libigl.
+	- Familiar with GSL and nanoflann. 
+- Java for systems (Robotics) and for Object-Oriented Design.
+- TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
+	- Undergraduate/Graduate algorithms course at NYU taught by Alan Siegel
 - First Robotics:
     - Student Member while in high school (2012-2016)
         - Build team member (2012-2014)
@@ -28,6 +29,7 @@
     - Adult Mentor now (2016 - Present)
         - Design and programming mentor (2016-Present)
     - Part of [Team 2849: Team Ursa Major](http://hammondursamajor.org/)
+
 
 ## Education
 - New York University
@@ -47,6 +49,8 @@
 - University of Maryland
     - Elementary Number Theory 
     - Complex Variables
+	- Introduction to Artificial Intelligence
+	- Partial Differential Equations
 - Howard Community College
     - Calculus I/II/III
     - Statistics
