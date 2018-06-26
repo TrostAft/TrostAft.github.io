@@ -8,8 +8,8 @@ Looks like I finally got a blog up and running, equipped with math finally
 working. 
 
 $$
-\forall \varepsilon > 0, \exists \delta > 0 : d(x,c) < \delta \implies d(f(x),L)
-< \varepsilon
+\lim{x \to c} f(x) = L \implies \forall \varepsilon > 0, \exists \delta > 0 :
+d(x,c) < \delta \implies d(f(x),L) < \varepsilon
 $$
 
 Nice! I can't tell you how long that took me, for something that turned out to
