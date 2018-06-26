@@ -6,8 +6,8 @@ description: If you're interested in my resume scroll down. Blog is right undern
 baseurl: "/blog"
 url: ""
 
-parallax_image_one: assets/images/coll.JPG # These are the images used for the parallax background
-parallax_image_two: assets/images/coll.JPG
+parallax_image_one: assets/images/irr.png # These are the images used for the parallax background
+parallax_image_two: assets/images/irr.png
 
 project_one: "First Project"
 project_one_description: Describe your project!
