@@ -4,7 +4,7 @@ title: Abhijit Chowdhary
 ---
 # Abhi's Page
 
-![](Resources/Images/profilepic.jpg)
+![](resources/profilepic.jpg)
 
 ![](https://projecteuler.net/profile/TrostAft.png)
 
