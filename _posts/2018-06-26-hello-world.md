@@ -4,11 +4,14 @@ title: "Hello, World!"
 date: 2018-06-26
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about
-it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author
-my posts. It actually is a lot easier than I thought it was going to be. \\( 5 +
-5 = 10 \\).
+Looks like I finally got a blog up and running, equipped with math finally
+working. 
 
 $$
-x \equiv 5 \pmod{7} 
+\forall \varepsilon > 0, \exists \delta > 0 : d(x,c) < \delta \implies d(f(x),L)
+< \varepsilon
 $$
+
+Nice! I can't tell you how long that took me, for something that turned out to
+be embarressingly easy. I have no idea how I'm going to get latex packages in
+here. 
