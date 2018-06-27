@@ -34,7 +34,7 @@ title: Abhijit Chowdhary
 
 
 ## Education
-- New York University
+- New York University (2016 - Present)
     - Computer Science
         - Basic Algorithms
         - Computer Systems Organization
@@ -48,12 +48,13 @@ title: Abhijit Chowdhary
         - Honors Linear Algebra
         - Numerical Methods I (Grad)
         - Topology 
-- University of Maryland
+- University of Maryland (Summer 2017/2018)
     - Complex Variables
     - Elementary Number Theory 
 	- Introduction to Artificial Intelligence
 	- Partial Differential Equations
-- Howard Community College
+- Howard Community College (2013 - 2016)
     - Calculus I/II/III
     - Statistics
-- Hammond High School
+    - Russian I/II
+- Hammond High School (2012 - 2016)
