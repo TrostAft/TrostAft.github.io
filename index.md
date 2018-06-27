@@ -11,18 +11,17 @@ title: Abhijit Chowdhary
 ## About Me
 - Math and CS guy
 - Likes Numerical Methods and Computational Math.
-- Has a tendency to start small modules and never finish them
 - Not great at web design (sorry)
 
 ## Skills
-- Linux: User for 2 years. Currently on Arch Linux
+- Linux: Heavy user for 4 years. 
 - Fluent with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Fluent with Eigen, libigl.
-	- Familiar with GSL and nanoflann. 
+    - Familiar with GSL and nanoflann. 
 - Java for systems (Robotics) and for Object-Oriented Design.
 - TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
-	- Undergraduate/Graduate algorithms course at NYU taught by Alan Siegel
+    - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
 - First Robotics:
     - Student Member while in high school (2012-2016)
         - Build team member (2012-2014)
