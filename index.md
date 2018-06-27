@@ -4,9 +4,7 @@ title: Abhijit Chowdhary
 ---
 # Abhijit Chowdhary
 
-![](resources/profilepic.jpg)
-
-![](https://projecteuler.net/profile/TrostAft.png)
+![](resources/profilepic.jpg){: .center-image }
 
 ## About Me
 - Math and CS guy
@@ -31,6 +29,8 @@ title: Abhijit Chowdhary
         - Design and programming mentor (2016-Present)
     - Part of [Team 2849: Team Ursa Major](http://hammondursamajor.org/)
 - [See my github](https://github.com)
+
+![](https://projecteuler.net/profile/TrostAft.png)
 
 
 ## Education
