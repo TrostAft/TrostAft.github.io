@@ -4,11 +4,10 @@ title: "Hello, World!"
 date: 2018-06-26
 ---
 
-Looks like I finally got a blog up and running, equipped with math finally
-working. 
+Looks like I finally got a blog up and running, equipped with math working. 
 
 $$
-\lim_{x \to c} f(x) = L \implies \forall \varepsilon > 0, \exists \delta > 0 :
+\lim_{x \to c} f(x) = L \iff \forall \varepsilon > 0, \exists \delta > 0 :
 d(x,c) < \delta \implies d(f(x),L) < \varepsilon
 $$
 
