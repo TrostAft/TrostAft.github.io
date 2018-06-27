@@ -2,7 +2,7 @@
 layout: default
 title: Abhijit Chowdhary
 ---
-# Abhi's Page
+# Abhijit Chowdhary
 
 ![](resources/profilepic.jpg)
 
@@ -19,7 +19,7 @@ title: Abhijit Chowdhary
 - Knows C and C++ for runtime sensitive simulations
     - Fluent with Eigen, libigl.
     - Familiar with GSL and nanoflann. 
-- Java for systems (Robotics) and for Object-Oriented Design.
+- Java for systems (Robotics) and OOP. 
 - TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
     - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
 - First Robotics:
@@ -48,8 +48,8 @@ title: Abhijit Chowdhary
         - Numerical Methods I (Grad)
         - Topology 
 - University of Maryland
-    - Elementary Number Theory 
     - Complex Variables
+    - Elementary Number Theory 
 	- Introduction to Artificial Intelligence
 	- Partial Differential Equations
 - Howard Community College
