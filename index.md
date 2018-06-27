@@ -30,6 +30,7 @@ title: Abhijit Chowdhary
     - Adult Mentor now (2016 - Present)
         - Design and programming mentor (2016-Present)
     - Part of [Team 2849: Team Ursa Major](http://hammondursamajor.org/)
+- [See my github](https://github.com)
 
 
 ## Education
