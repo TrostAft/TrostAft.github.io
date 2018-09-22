@@ -34,7 +34,7 @@ title: Abhijit Chowdhary
 
 
 ## Education
-- New York University (2016 - Present)
+- New York University (2016 - Present) (GPA: 3.656)
     - Computer Science
         - Basic Algorithms
         - Computer Systems Organization
