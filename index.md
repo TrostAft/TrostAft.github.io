@@ -34,7 +34,7 @@ title: Abhijit Chowdhary
 
 
 ## Education
-- New York University (2016 - Present) (GPA: 3.656)
+- New York University (2016 - Present)
     - Computer Science
         - Basic Algorithms
         - Computer Systems Organization
@@ -46,8 +46,11 @@ title: Abhijit Chowdhary
         - Honors Algebra I/II
         - Honors Analysis I/II
         - Honors Linear Algebra
-        - Numerical Methods I (Grad)
+        - Honors Probability Theory 
         - Topology 
+        - Numerical Methods I (Grad)
+        - Algebra (Grad)
+        - Partial Differential Equations (Grad)
 - University of Maryland (Summer 2017/2018)
     - Complex Variables
     - Elementary Number Theory 
