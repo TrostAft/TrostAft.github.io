@@ -8,11 +8,11 @@ title: Abhijit Chowdhary
 
 ## About Me
 - Math and CS guy
-- Likes Numerical Methods and Computational Math.
+- Research interests in Computational Math.
 - Not great at web design (sorry)
 
 ## Skills
-- Linux: Heavy user for 4 years. 
+- Linux: Heavy user since 2015. 
 - Fluent with (num/sci/sym)py
 - Knows C and C++ for runtime sensitive simulations
     - Fluent with Eigen, libigl.
