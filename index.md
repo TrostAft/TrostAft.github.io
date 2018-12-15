@@ -13,11 +13,9 @@ title: Abhijit Chowdhary
 
 ## Skills
 - Linux: Heavy user since 2015. 
-- Fluent with (num/sci/sym)py
-- Knows C and C++ for runtime sensitive simulations
-    - Fluent with Eigen, libigl.
-    - Familiar with GSL and nanoflann. 
-- Java for systems (Robotics) and OOP. 
+- Language Fluency:
+    - Python, C, C++, Java
+    - Latin
 - TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
     - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
 - First Robotics:
