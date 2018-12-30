@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hello, World!"
-date: 2018-06-26
+title: "Central Limit Theorem through Random Walks"
+date: 2018-12-30
 ---
 
 The central limit theorem is a beautiful result in probability that states:
