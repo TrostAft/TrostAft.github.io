@@ -43,4 +43,4 @@ $$
 Then this person has a $1/2$ probability to step one unit to the right or left.
 Such a random walk would look like:
 
-![](clt_through_random_walks/pm1rv.png){: .center-image }
+![](_posts/clt_through_random_walks/pm1rv.png){: .center-image }
