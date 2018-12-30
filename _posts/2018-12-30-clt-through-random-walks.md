@@ -12,6 +12,7 @@ random walks!
 
 *Theorem:* Let $\{X_i\}_{i=1}^n $ be an i.i.d. sequence of random variables
 whose expectation exists and has finite non-zero variance $\sigma^2$. Then:
+
 $$
 \begin{equation}
 \lim_{n \to \infty} \mathbb{P} \left[
