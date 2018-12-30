@@ -31,7 +31,7 @@ Suppose a _very_ drunk person stands on the real number line, at initial
 position $\eta$. We want to chart his movements along this number line, and
 interestingly enough at each step he appears to move in accordance to some
 sequence of random variables $\{X_i\}$. So his position at step $n$ will be
-denoted by $S_n = x + X_1 + \dots + X_n$.
+denoted by $S_n = \eta + X_1 + \dots + X_n$.
 
 For example, suppose that:
 $$
