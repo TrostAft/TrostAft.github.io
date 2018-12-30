@@ -45,9 +45,9 @@ $$
 Then this person has a $1/2$ probability to step one unit to the right or left.
 Such a random walk would look like:
 
-![]({{ site.url }}/_posts/clt_through_random_walks/pm1rv.png){: .center-image }
+![]({{ site.url }}/resources/clt_through_random_walks/pm1rv.png){: .center-image }
 
-~~~ python
+``` python
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
@@ -70,5 +70,6 @@ plt.xlabel('Position')
 plt.ylabel('Step')
 plt.title('Random walk with different step size')
 plt.show()
-~~~
+```
+
 
