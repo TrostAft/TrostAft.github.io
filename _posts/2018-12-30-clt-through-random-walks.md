@@ -46,3 +46,29 @@ Then this person has a $1/2$ probability to step one unit to the right or left.
 Such a random walk would look like:
 
 ![]({{ site.url }}/_posts/clt_through_random_walks/pm1rv.png){: .center-image }
+
+~~~ python
+import matplotlib.pyplot as plt
+import numpy as np
+import sys
+
+N = int(sys.argv[1])
+mu, sigma = 0,1
+
+# Discrete Random Walk
+
+p = .5
+steps = [-1 if np.random.random(1) < p else 1 for i in range(1,N+1)]
+for i in range(1,N):
+	steps[i] += steps[i-1]
+
+plt.plot([0] + steps, [i for i in range(0,N+1)], '-')
+
+plt.legend(['$\pm 1$ steps'])
+
+plt.xlabel('Position')
+plt.ylabel('Step')
+plt.title('Random walk with different step size')
+plt.show()
+~~~
+
