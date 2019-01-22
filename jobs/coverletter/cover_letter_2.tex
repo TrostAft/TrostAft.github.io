@@ -38,7 +38,7 @@
 %\setmainfont {Adobe Garamond Pro} % Main document font
 %\setsansfont {Gill Sans} % Used in the from address line above the to address
 
-\renewcommand{\normalsize}{\fontsize{12}{17}\selectfont} % Sets the font size and leading
+\renewcommand{\normalsize}{\fontsize{10.5}{15}\selectfont} % Sets the font size and leading
 
 %----------------------------------------------------------------------------------------
 %  PERSONAL INFORMATION
@@ -62,8 +62,8 @@
 
 \firsthead{
 \centering
-{\addfontfeature{LetterSpace=20.0}\fontsize{36}{36}\selectfont\scshape \usekomavar{fromname}}\\[5mm]
-\fontsize{21}{21}\selectfont\scshape Student at NYU } % Your current job title
+{\addfontfeature{LetterSpace=15.0}\fontsize{24}{24}\selectfont\scshape \usekomavar{fromname}}\\[5mm]
+\fontsize{18}{18}\selectfont\scshape Student at NYU } % Your current job title
 
 %----------------------------------------------------------------------------------------
 %  FOOTER SECTION
@@ -89,37 +89,48 @@
 %----------------------------------------------------------------------------------------
 
 \begin{letter}{ % Address of the company you are applying to
-Mathworks\\
-Natick, MA\\
+Auburn University\\
+Parallel and Distributed Computing REU
 %12345 City, State
 }
 
 %\setkomavar{subject}{Cover Letter} % This is the bold text saying 'Cover Letter', remove it if you don't like it
 \opening{Dear Sir or Madam,}
 
-I am writing this cover letter as an introduction for my application for the
-position of \textit{Software Engineer in Test Intern for Numerical Algorithms}
-at your company of Mathworks.
+I'm largely interested in Computational Mathematics, specifically in the pursuit
+of optimizing the algorithms for these types of problems. Therefore, fields such
+as Numerical Linear Algebra, Computational Number Theory, Cryptography,
+and Numerical Optimization are very attractive to me. In addition, I have a
+substatial interest in the methods to accomplish such tasks, such as compilers,
+and methods of high performance computing, notably distributed and parallel
+computation.
 
-Mathworks work on Matlab has been something I've spent a significant amount of
-my academic career working with. I remember in my freshman year, when
-implementing a QR iteration for my numerical computation class, I found out that
-Matlab ran the same code in minutes, rather than the hours taken by Octave. I
-realized that this difference was coming from the bottleneck in the actual QR
-factorization; but I couldn't see what black magic you used to achieve this. To
-this day I'm still interested in how you guys managed to get it to perform at
-that level, and if I start in this position, I hope to help create performant
-algorithms like that. I've spent lots of my academic career studying numerical
-methods, from taking the PhD numerical methods seminars, to applying it in a
-Geometric Modeling or Algebraic Number Theoretical context. By using the theory
-I gained here I hope to help as much as I can. 
+I realized this when recenetly I worked on a course project that could have
+benefited from parallelization. In my graduate Geometric Modeling course, which
+was a cross between computer graphics and discrete differential geometry, my
+final project was to implement a paper \textit{Algebraic Point Set Surfaces} by
+Gunnebaud and Gross. Roughly speaking, in graphics when we want to turn a point
+cloud, read by some kind of scanner, into a triangularized mesh, we do an
+optimization on algebraically fit planes to the point cloud, minimizing
+distances. But, this paper proposed a fast method to fit spheres to the data
+using an interesting "linear under certain circumstances" approximation, which
+was advantageous in regions of high curvature. 
 
-If you are interested, please send me an email at abhijit9331@gmail.com, or a
-call to (240) 715-8308. Finally, thank you for taking the time to review my
-application, have a good day. \\
+What really plagued me in this project wasn't the actual graphics theory .
+Rather I spent days spinning my wheels in the implementation, trying to reduce
+the bottleneck in the eigenvalue system construction and solve, trying various
+different sparsity arguments and decompositions. Later I realized, that I could
+have seriously improved performance using a library like OpenMP to parallize the
+construction of the matrix and the actual solve. That's when I began to look
+into parallel computation. 
 
-Sincerely yours, 
-\usekomavar{signature}.
+Next semester, I'm taking a HPC course on this with the hopes of improving my
+finite field polynomial library with it, and I hope to be able to apply my
+new abilities in this REU with any professor looking into parallel numerical
+methods or similar. I'm very interested in this field, as I consider the next
+step in numerical methods.
+
+Sincerely yours, \usekomavar{signature}.
 
 %----------------------------------------------------------------------------------------
 
