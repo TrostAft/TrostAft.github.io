@@ -1,0 +1,150 @@
+% --------------------------------------------------------------
+% Abhi's Standard math Preamble.
+% --------------------------------------------------------------
+ 
+\documentclass[12pt]{article}
+ 
+%Math Packages
+\usepackage[margin=1in]{geometry} 
+\usepackage{amsmath,amsthm,amssymb,mathrsfs,bm}
+\usepackage{mathtools}
+\usepackage{xfrac}
+%\usepackage{commath}
+%\usepackage{minted}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Abhijit Chowdhary \thepage}
+
+%Fonts
+%\usepackage[sc,osf]{mathpazo}   % With old-style figures and real smallcaps.
+%\usepackage{lmodern}
+%\usepackage{eulervm}
+
+\DeclareMathOperator{\sign}{sgn}
+
+%Math commands
+% Mathematical Fields
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+%Divides and Not Divides
+\newcommand{\divides}{\bigm|}
+\newcommand{\ndivides}{%
+  \mathrel{\mkern.5mu % small adjustment
+    % superimpose \nmid to \big|
+    \ooalign{\hidewidth$\big|$\hidewidth\cr$\nmid$\cr}%
+  }%
+}
+%Limit as n -> inf
+\newcommand{\limty}{\lim_{n \to \infty}}
+%sum from n=1 \to inf
+\newcommand{\sumty}{\sum_{n = 1}^\infty}
+
+\newcommand{\lindelof}{Lindel\={o}f }
+
+\newtheorem*{lemma*}{Lemma}
+ 
+\begin{document}
+ 
+% --------------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------------
+
+ 
+\title{Research Statement}%replace X with the appropriate number
+\author{Abhijit Chowdhary\\ %replace with your name
+} %if necessary, replace with your course title
+
+\maketitle
+
+\section{Introduction}
+
+I'm largely interested in Computational Mathematics, specficially regarding the
+algorithms and analysis of them. Therefore, some fields that I find interesting
+are numerical linear algebra, computational group theory, fast PDE/ODE solvers,
+etc. In addition, I have a substantial interest in the methods used to
+accomplish such tasks, such as compilers and high performance computing. Most
+have my study has gone to the study of such topics, and most of my projects are
+directly related.
+
+I've had a breadth type of study, and have hit most of the fields that can be
+modeled by a computer. Ideally, I would like to work on projects similar to
+FLINT \footnote{Fast Library for Number Theory: http://www.flintlib.org/},
+LinBox \footnote{Exact computational linear algebra: http://www.linalg.org/}, or
+SageMath \footnote{Symbolic Everything: http://www.sagemath.org/}, but am also
+very interested in the related pure fields, though I will likely take a
+computational bent to the project.
+
+\section{Projects}
+
+To give you a better idea of what I've done so far, here's a few applications.
+
+\subsection{Algebraic Point Set Surfaces}
+
+During the Spring 2018 semester, my sophomore year, I took this course called
+Geometric Modeling. This was a masters/PhD level course, intended for those
+interested in computer graphics research or cutting edge level industry work,
+and I attended on reccomendation from a professor who thought the coursework was
+wild. While the whole class was a beautiful exercise in Numerical Optimization
+and Numerical Linear Algebra, my term project is currently a main motivation for
+me to pursue research in this field.
+
+My final project was to implement the paper \textit{Algebraic Point Set
+Surfaces} by Gunnebaud and Gross. Roughly speaking, in geometric modeling the
+pipeline: Physical object $\to$ spatial point cloud representing external
+surface $\to$ triangularized mesh representing object. The paper focused on a
+fast method to take the point cloud to a triangularized mesh. The prevailing
+method was to consider an open neighborhood of a point in the cloud, and fit a
+plane to it that minimized the distance to the points in that neighborhood. Such
+a plane would become part of the later mesh. The paper suggested fitting a
+sphere to these points instead, which was hugely advantageous in regions of high
+curvature. Such a fit would result in a non-linear optimization, but the key
+idea of using the algebraic definition of a sphere, results in a nicer
+computation. Specifically, given normals we can have a linear system solve,
+and we can estimate them with a generalized eigenproblem.
+
+The truly difficult parts of this project to me wasn't the actual graphics
+theory. What really plagued me was the implementation; I ran into serious
+runtime issues in the actual construction of the matrices involved in the
+eigenproblem, and later the linear system solve. I spent a while making various
+vectorization arguments to speed up the construction, and then later making
+sparsity arguments in the actual system solve. 
+
+Despite the difficulty of my first research level project, I truly enjoyed the
+construction process, nothing to say of the relief when I finally managed to
+triangularize a bunny \footnote{A classic point cloud to construct is the
+Stanford Bunny model.}. In addition, it verified to me that I not only enjoyed
+the study of numerical methods, but liked and was capable of research and
+development in them.
+
+\subsection{FFPoly}
+
+This is a new project I've begun, and have taken into my semester as a project.
+In my graduate algebra course I was exposed to some algebraic number theory, and
+upon request, my professor showed me a few papers regarding the computational
+aspects of it. Intrigued, I decided to write a module in C\textit{++}
+implementing a element of the field $\mathbb{F}_p[x]$, for small $p \in
+\mathbb{Z}$. 
+
+This polynomial field is interesting, since the splitting behavior of minimal 
+polynomials of number fields gives information of the splitting behavior of the
+corresponding primes in the algebraic number field. Furthermore, using
+Minkowski's bound, we could said information to verify the class groups of
+certain small quadratic number fields, which is interesting. SageMath has such a
+capability, but I had a couple of special ideas that I wanted to try;
+specifically I wanted to investigate the performance of parallelization on these
+problems. I'm taking a PhD course in High Performance Computing now, and plan on
+using this project as my capstone research piece. There is lots of potential in
+the field operations and factoring steps.
+
+This project is in it's infantile stages, and I've just barely began learning
+OpenMP, but since parallel computation is a future step in numerical methods, I
+have high hopes for its results.
+
+\end{document}
