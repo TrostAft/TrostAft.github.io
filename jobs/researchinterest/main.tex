@@ -65,12 +65,12 @@
 
 \section{Introduction}
 
-I'm largely interested in Computational Mathematics, specficially regarding the
+I'm largely interested in Computational Mathematics, specificially regarding the
 algorithms and analysis of them. Therefore, some fields that I find interesting
 are numerical linear algebra, computational group theory, fast PDE/ODE solvers,
 etc. In addition, I have a substantial interest in the methods used to
 accomplish such tasks, such as compilers and high performance computing. Most
-have my study has gone to the study of such topics, and most of my projects are
+have my study has gone to the pursuit of such topics, and most of my projects are
 directly related.
 
 I've had a breadth type of study, and have hit most of the fields that can be
@@ -96,18 +96,19 @@ and Numerical Linear Algebra, my term project is currently a main motivation for
 me to pursue research in this field.
 
 My final project was to implement the paper \textit{Algebraic Point Set
-Surfaces} by Gunnebaud and Gross. Roughly speaking, in geometric modeling the
-pipeline: Physical object $\to$ spatial point cloud representing external
-surface $\to$ triangularized mesh representing object. The paper focused on a
-fast method to take the point cloud to a triangularized mesh. The prevailing
-method was to consider an open neighborhood of a point in the cloud, and fit a
-plane to it that minimized the distance to the points in that neighborhood. Such
-a plane would become part of the later mesh. The paper suggested fitting a
-sphere to these points instead, which was hugely advantageous in regions of high
-curvature. Such a fit would result in a non-linear optimization, but the key
-idea of using the algebraic definition of a sphere, results in a nicer
-computation. Specifically, given normals we can have a linear system solve,
-and we can estimate them with a generalized eigenproblem.
+Surfaces} by Gunnebaud and Gross. Roughly speaking, in geometric modeling we
+have the pipeline: Physical object $\to$ spatial point cloud representing
+external surface $\to$ triangularized mesh representing object. The paper
+focused on a fast method to take the point cloud to a triangularized mesh. The
+prevailing method was to consider an open neighborhood of a point in the cloud,
+and fit a plane to it that minimized the distance to the points in that
+neighborhood. Such a plane would become part of the later mesh. The paper
+suggested fitting a sphere to these points instead, which was hugely
+advantageous in regions of high curvature. Such a fit would result in a
+non-linear optimization problem, but the key idea of using the algebraic
+definition of a sphere, results in a nicer computation. Specifically, given
+normals we can have a linear system solve, and we can estimate them with a
+generalized eigenproblem.
 
 The truly difficult parts of this project to me wasn't the actual graphics
 theory. What really plagued me was the implementation; I ran into serious
@@ -141,10 +142,13 @@ capability, but I had a couple of special ideas that I wanted to try;
 specifically I wanted to investigate the performance of parallelization on these
 problems. I'm taking a PhD course in High Performance Computing now, and plan on
 using this project as my capstone research piece. There is lots of potential in
-the field operations and factoring steps.
+the field operations and factoring steps, and some interesting active research
+going on in the field \footnote{See the paper \textit{Parallel Integer
+Polynomail Multiplication} by Chen, Covanov, Mansourim Maza, Xie and Xie}.
 
 This project is in it's infantile stages, and I've just barely began learning
 OpenMP, but since parallel computation is a future step in numerical methods, I
-have high hopes for its results.
+have high hopes for its results, and hopefully can beat out similar serial
+libraries in speed.
 
 \end{document}
