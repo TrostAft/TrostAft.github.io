@@ -47,3 +47,5 @@ ul.posts li {
     margin: 0 auto;
     display: block;
 }
+
+@import url(monokai.css)

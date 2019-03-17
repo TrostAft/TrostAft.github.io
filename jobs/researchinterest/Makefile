@@ -1,4 +1,4 @@
-name=texResult
+name=ResearchStatement_AbhijitChowdhary
 PLatFlags= -jobname=$(name) --shell-escape
 
 default:
