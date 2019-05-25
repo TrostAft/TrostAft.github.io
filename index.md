@@ -33,29 +33,31 @@ title: Abhijit Chowdhary
 
 ## Education
 - New York University (2016 - Present)
-    - Computer Science
-        - Basic Algorithms
-        - Computer Systems Organization
-        - Data Structures
-        - Geometric Modeling (Grad)
-        - Numerical Computing
-        - Operating Systems
-    - Mathematics
-        - Honors Algebra I/II
-        - Honors Analysis I/II
-        - Honors Linear Algebra
-        - Honors Probability Theory 
-        - Topology 
-        - Numerical Methods I (Grad)
-        - Algebra (Grad)
-        - Partial Differential Equations (Grad)
+  - Computer Science
+    - Basic Algorithms
+    - Computer Systems Organization
+    - Data Structures
+    - Geometric Modeling (Grad)
+    - High Performance Computing (Grad)
+    - Numerical Computing
+    - Operating Systems
+  - Mathematics
+    - Honors Algebra I/II
+    - Honors Analysis I/II
+    - Honors Linear Algebra
+    - Honors Probability Theory 
+    - Topology 
+    - Numerical Methods I/II (Grad)
+    - Algebra (Grad)
+    - Partial Differential Equations (Grad)
+  - Latin
 - University of Maryland (Summer 2017/2018)
-    - Complex Variables
-    - Elementary Number Theory 
-	- Introduction to Artificial Intelligence
-	- Partial Differential Equations
+  - Complex Variables
+  - Elementary Number Theory 
+  - Introduction to Artificial Intelligence
+  - Partial Differential Equations
 - Howard Community College (2013 - 2016)
-    - Calculus I/II/III
-    - Statistics
-    - Russian I/II
+  - Calculus I/II/III
+  - Statistics
+  - Russian I/II
 - Hammond High School (2012 - 2016)
