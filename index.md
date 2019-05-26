@@ -11,22 +11,18 @@ title: Abhijit Chowdhary
 - Research interests in Computational Math.
 - Not great at web design (sorry)
 
-## Skills
-- Linux: Heavy user since 2015. 
-- Language Fluency:
-    - Python, C, C++, Java
-    - Latin
+## Activities and Projects
 - TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
-    - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
-- First Robotics:
-    - Student Member while in high school (2012-2016)
-        - Build team member (2012-2014)
-        - Business captain/programming team (2015)
-        - Team Captain (2016)
-    - Adult Mentor now (2016 - Present)
-        - Design and programming mentor (2016-Present)
-    - Part of [Team 2849: Team Ursa Major](http://hammondursamajor.org/)
+  - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
+- First Robotics: [Part of Team 2849 Team Ursa Major](http://hammondursamajor.org/)
+  - Student Member while in high school (2012-2016)
+    - Build team member (2012-2014)
+    - Business captain/programming team (2015)
+    - Team Captain (2016)
+  - Design and programming mentor (2016-Present)
 - [See my github](https://github.com/abhijit-c)
+  - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
+  - [ffpoly: Finite field polynomial implementation](https://github.com/abhijit-c/ffpoly)
 
 ![](https://projecteuler.net/profile/TrostAft.png)
 
