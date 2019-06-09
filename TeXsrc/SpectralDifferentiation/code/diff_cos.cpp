@@ -27,7 +27,7 @@ int main(int argc, char **argv)
   fftw_complex *fxx, *out;
   out = (fftw_complex *) fftw_malloc(sizeof(fftw_complex) * M);
 
-  while (N < 65)
+  while (N < M)
   {
     fxx = (fftw_complex *) fftw_malloc(sizeof(fftw_complex) * N);
     for (int k = 0; k < N; k++)
@@ -42,7 +42,7 @@ int main(int argc, char **argv)
     }
     printf("%d, %e\n", N, err);
 
-    fftw_free(fxx); N = N + 1;
+    fftw_free(fxx); N = N * 2;
   }
   fftw_free(out);
 }

@@ -1,15 +1,27 @@
 /*
- * FILE: spectral_differentiation.h
+ * FILE: spectral_diff.h
  * AUTHOR: Abhijit Chowdhary 2019/06/07.
  * ----------------------------------
- * Provides a function to numerically approximate the derivative using spectral
- * methods.
+ * Provides a function to numerically approximate the derivative of a function
+ * applied to a the grid [0, 2*pi].
  */
 
 #ifndef SPECTRAL_DIFF_H
 #define SPECTRAL_DIFF_H
 
+#include <stdio.h>
 #include <fftw3.h>
+
+
+inline void print_domain(fftw_complex *x, int N)
+{
+  printf("(%f, %f)", x[0][0], x[0][1]);
+  for (int k = 1; k < N; k++)
+  {
+    printf(",(%f, %f)", x[k][0], x[k][1]);
+  }
+  printf("\n");
+}
 
 /* 
  * FUNCTION: spectral_diff
