@@ -53,12 +53,19 @@ spectral_diff(fftw_complex *fxx, int N, fftw_complex *out, int M)
   out[nyqst][0] = out[nyqst][0]/2; out[nyqst][1] = out[nyqst][1]/2;
   out[nyqst+M-N-1][0] = out[nyqst][0]; out[nyqst+M-N-1][1] = out[nyqst][1];
 
+  //for (int k = 0; k < M; k++)
+  //{
+  //  int w = 0;
+  //  if (k < nyqst)  { w = k; }
+  //  else if (k > (M-N-1)+nyqst) { w = k - M; }
+  //  double temp = out[k][0]; out[k][0] = -w*N*out[k][1]/M; out[k][1] = temp*N*w/M;
+  //}
   for (int k = 0; k < M; k++)
   {
     int w = 0;
-    if (k < nyqst)  { w = k; }
-    else if (k > (M-N-1)+nyqst) { w = k - M; }
-    double temp = out[k][0]; out[k][0] = -w*N*out[k][1]/M; out[k][1] = temp*N*w/M;
+    if (k < nyqst)  { w = 1; }
+    else if (k > (M-N-1)+nyqst) { w = 1; }
+    out[k][0] *= w*N*out[k][0]/(N*M); out[k][1] *= N*w*out[k][1]/(N*M);
   }
 
   p = fftw_plan_dft_1d(M, out, out, FFTW_BACKWARD, FFTW_ESTIMATE);
