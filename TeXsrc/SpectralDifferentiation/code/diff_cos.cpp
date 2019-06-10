@@ -38,11 +38,11 @@ int main(int argc, char **argv)
     double err = 0.0;
     for (int k = 0; k < M; k++)
     {
-      err = fmax(err, fabs( out[k][0] - (-sin(k*2*M_PI / M)) ));
+      err = fmax(err, fabs( out[k][0] - (cos(k*2*M_PI / M)) ));
     }
     printf("%d, %e\n", N, err);
 
-    fftw_free(fxx); N = N * 2;
+    fftw_free(fxx); N = N + 8;
   }
   fftw_free(out);
 }
