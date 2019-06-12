@@ -1,7 +1,7 @@
 /*
  * FILE: spectral_diff.h
  * AUTHOR: Abhijit Chowdhary 2019/06/07.
- * ----------------------------------
+ * -------------------------------------
  * Provides a function to differentiate a function applied to the grid [0,2*pi].
  */
 
@@ -12,19 +12,19 @@
 
 /* 
  * FUNCTION: spectral_diff
- * ------------------
+ * -----------------------
  * Differentiates the function f onto a finer grid via spectral interpolation.
  *
  * INPUT:
  * fftw_complex &fxx: An array of complex numbers describing the function which
  *                    the interpolation is to be taken on applied to the grid
  *                    [0,2*pi].
- * int N: Spacing of the above grid, i.e. fxx[k] = f(2*pi*k/N). 
+ * int N: Spacing of the above grid, i.e. fxx[k] = f(2*pi*k/N).
  * int M: Spacing of output grid, i.e. out[k] = f'(2*pi*k/M). M >= N must be
  *        true, if not M is set to N and out is realloced to size N. If this
  *        fails, function returns having done nothing.
  * OUTPUT:
- * fftw_complex &out: Output array containing (d/dx)fxx of size M. 
+ * fftw_complex &out: Output array of size M where out[k] = f'(2*pi*k/M).
  */
 inline void 
 spectral_diff(fftw_complex *fxx, int N, fftw_complex *out, int M)
