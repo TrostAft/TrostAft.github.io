@@ -36,7 +36,7 @@ spectral_diff(fftw_complex *fxx, int N, fftw_complex *out, int M)
     else { out = new_out; M = N; }
   }
   fftw_plan p = fftw_plan_dft_1d(N, fxx, out, FFTW_FORWARD, FFTW_ESTIMATE);
-  fftw_execute(p);
+  fftw_execute(p); fftw_destroy_plan(p);
 
   int nyqst = N/2;
   for (int k = 0; k < N; ++k)
@@ -56,7 +56,7 @@ spectral_diff(fftw_complex *fxx, int N, fftw_complex *out, int M)
     out[nyqst][0] = out[M-nyqst][0]; out[nyqst][1] = out[M-nyqst][1];
   }
 
-  p = fftw_plan_dft_1d(M, out, out, FFTW_BACKWARD, FFTW_ESTIMATE);
+  fftw_plan p = fftw_plan_dft_1d(M, out, out, FFTW_BACKWARD, FFTW_ESTIMATE);
   fftw_execute(p); fftw_destroy_plan(p);
 }
 
