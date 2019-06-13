@@ -58,16 +58,37 @@
  
 \begin{document}
 
-We all know that the Fourier transform is pretty magical, but one of the first
-cool implementations for me is using it for interpolation and differentiation.
-As it turns out, since the Fourier basis gives spectral accuracy for smooth
-functions, both of these can be done to spectral accuracy and in
-$\theta(n\log(n))$ time, since we have the Fast Fourier Transform.
+We all know that the Fourier transform is pretty magical, but it turns out to be
+extra special to deal with certain PDEs. As it turns out, since the Fourier
+basis gives spectral accuracy for smooth functions, we can approximate the
+derivative of functions with spectral accuracy and in $\theta(n\log(n))$ time,
+since we have the Fast Fourier Transform. Therefore, as a substitute to finite
+difference methods, we can use spectral methods to discretize the spacial
+derivative operator.
 
-\inputminted[fontsize=\footnotesize, linenos, autogobble]{c}{./code/interpft.h}
+\section{A Simple Heat Equation}
 
-\inputminted[fontsize=\footnotesize, linenos, autogobble]{c}{./code/spectral_diff.h}
+Let's look at the initial-boundary value problem for the 1D heat equation:
 
-\inputminted[frame=lines, framesep=2mm, baselinestretch=1.2, bgcolor=LightGray, fontsize=\footnotesize, linenos, autogobble]{c}{./code/spectral_diff.h}
+$$
+\begin{cases}
+  \frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}
+  & x \in [0, 2\pi), t \in (0, T] \\
+  u(x,0) = u_0(x), & x \in [0, 2\pi) \\
+  u(0,t) = u(2\pi, t) = 0
+\end{cases}
+$$
+
+This is a toy example, where we can directly solve this problem using the
+fourier
+
+\section{Code: Spectral Differentiation}
+
+If you would like to look at the code for spectral differentiation, I would have
+to reference you to Trefethen's excellent text called \textit{Spectral Methods
+in Matlab}; really excellent on the matter. As far as the code I used, take
+a look!
+
+\inputminted[fontsize=\footnotesize, linenos]{c}{./code/spectral_diff.h}
 
 \end{document}
