@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -O3 -march=native
-LIBS = -fopenmp -lm
+LIBS = -lfftw3 -lm
 #LIBFLAGS = 
 DEBUG = -Wall -Werror
 
