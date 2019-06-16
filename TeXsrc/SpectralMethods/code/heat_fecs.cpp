@@ -5,8 +5,6 @@
 
 #include <omp.h>
 
-#define CFL 0.4
-
 double alpha;
 
 double u_exact(double t, double x) { return t*sin(x); }
@@ -18,9 +16,9 @@ double I(double x) { return u_exact(0,x); }
 
 int main(int argc, char **argv)
 {
-  if (argc != 4)
+  if (argc != 5)
   {
-    printf("USAGE: ./binary alpha T number_of_spacialpoints\n");
+    printf("USAGE: ./binary alpha T number_of_spacialpoints CFL\n");
     exit(1);
   }
   /*
@@ -30,6 +28,7 @@ int main(int argc, char **argv)
   alpha = atof(argv[1]);
   double T = atof(argv[2]);
   int N = atoi(argv[3]);
+  double CFL = atof(argv[4]);
 
   double *u      = (double *)malloc(sizeof(double)*N);
   double *u_temp = (double *)malloc(sizeof(double)*N);

@@ -6,8 +6,6 @@
 #include <fftw3.h>
 #include <omp.h>
 
-#define CFL 100
-
 double alpha;
 
 double u_exact(double t, double x) { return t*sin(x); }
@@ -19,9 +17,9 @@ double I(double x) { return u_exact(0,x); }
 
 int main(int argc, char **argv)
 {
-  if (argc != 4)
+  if (argc != 5)
   {
-    printf("USAGE: ./binary alpha T number_of_spacialpoints\n");
+    printf("USAGE: ./binary alpha T number_of_spacialpoints CFL\n");
     exit(1);
   }
   /*
@@ -31,6 +29,7 @@ int main(int argc, char **argv)
   alpha = atof(argv[1]);
   double T = atof(argv[2]);
   int N = atoi(argv[3]);
+  double CFL = atof(argv[4]);
 
   //fftw_init_threads();
   //fftw_plan_with_nthreads(omp_get_max_threads());
@@ -39,8 +38,8 @@ int main(int argc, char **argv)
   fftw_complex *u_diff = (fftw_complex *)malloc(sizeof(fftw_complex)*N);
 
   fftw_plan fw, bk;
-  fw = fftw_plan_dft_1d(N, u, u_diff, FFTW_FORWARD, FFTW_MEASURE);
-  bk = fftw_plan_dft_1d(N, u_diff, u_diff, FFTW_BACKWARD, FFTW_MEASURE);
+  fw = fftw_plan_dft_1d(N, u, u_diff, FFTW_FORWARD, FFTW_ESTIMATE);
+  bk = fftw_plan_dft_1d(N, u_diff, u_diff, FFTW_BACKWARD, FFTW_ESTIMATE);
 
   for (int k = 0; k < N; k++) { u[k][0] = I(k*2*M_PI/N); u[k][1] = 0.0; }
 
@@ -77,7 +76,7 @@ int main(int argc, char **argv)
     err = fmax( err, fabs( u[k][0] - u_exact(T, k*2*M_PI/N) ) );
   }
 
-  printf("Solution computed in %fs with absolute error %f\n", t_elap, err);
+  printf("Solution computed in %fs with absolute error %f.\n", t_elap, err);
   fftw_destroy_plan(fw); fftw_destroy_plan(bk); 
   fftw_free(u), fftw_free(u_diff);
   return 0;
