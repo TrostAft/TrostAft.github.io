@@ -43,6 +43,7 @@ title: Abhijit Chowdhary
     - Honors Linear Algebra
     - Honors Probability Theory 
     - Topology 
+    - Chaos and Dynamical Systems
     - Numerical Methods I/II (Grad)
     - Algebra (Grad)
     - Partial Differential Equations (Grad)
