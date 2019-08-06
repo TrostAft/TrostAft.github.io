@@ -12,6 +12,14 @@ title: Abhijit Chowdhary
 - Not great at web design (sorry)
 
 ## Activities and Projects
+
+- The summer of 2019 I spent at Ohio University in a math REU under professor
+    Qiliang Wu, where we researched the nonlinear stability of the
+    Swift-Hohenberg equation, resulting in a paper (currently in the draft
+    stages).
+- [See my github](https://github.com/abhijit-c)
+  - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
+  - [ffpoly: Finite field polynomial implementation (WIP)](https://github.com/abhijit-c/ffpoly)
 - TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
   - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
 - First Robotics: [Part of Team 2849 Team Ursa Major](http://hammondursamajor.org/)
@@ -20,12 +28,7 @@ title: Abhijit Chowdhary
     - Business captain/programming team (2015)
     - Team Captain (2016)
   - Design and programming mentor (2016-Present)
-- [See my github](https://github.com/abhijit-c)
-  - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
-  - [ffpoly: Finite field polynomial implementation](https://github.com/abhijit-c/ffpoly)
-
 ![](https://projecteuler.net/profile/TrostAft.png)
-
 
 ## Education
 - New York University (2016 - Present)
