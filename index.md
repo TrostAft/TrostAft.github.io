@@ -28,6 +28,7 @@ title: Abhijit Chowdhary
     - Business captain/programming team (2015)
     - Team Captain (2016)
   - Design and programming mentor (2016-Present)
+  
 ![](https://projecteuler.net/profile/TrostAft.png)
 
 ## Education
