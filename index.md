@@ -13,10 +13,6 @@ title: Abhijit Chowdhary
 
 ## Activities and Projects
 
-- The summer of 2019 I spent at Ohio University in a math REU under professor
-    Qiliang Wu, where we researched the nonlinear stability of the
-    Swift-Hohenberg equation, resulting in a paper (currently in the draft
-    stages).
 - Math REU @ Ohio University
   - Worked with [Qiliang Wu](https://sites.google.com/view/qwu/).
   - We researched the Nonlinear Stability of the Swift-Hohenberg equation at the
