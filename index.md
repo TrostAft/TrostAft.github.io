@@ -17,6 +17,11 @@ title: Abhijit Chowdhary
     Qiliang Wu, where we researched the nonlinear stability of the
     Swift-Hohenberg equation, resulting in a paper (currently in the draft
     stages).
+- Math REU @ Ohio University
+  - Worked with [Qiliang Wu](https://sites.google.com/view/qwu/).
+  - We researched the Nonlinear Stability of the Swift-Hohenberg equation at the
+    Zigzag boundary.
+  - We managed to prove the result, paper still in draft stages.
 - [See my github](https://github.com/abhijit-c)
   - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
   - [ffpoly: Finite field polynomial implementation (WIP)](https://github.com/abhijit-c/ffpoly)
