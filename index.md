@@ -20,6 +20,7 @@ title: Abhijit Chowdhary
   - We managed to prove the result, paper still in draft stages.
 - [See my github](https://github.com/abhijit-c)
   - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
+    - [Read the report here](./resources/Parareal.pdf)
   - [ffpoly: Finite field polynomial implementation (WIP)](https://github.com/abhijit-c/ffpoly)
 - TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
   - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
