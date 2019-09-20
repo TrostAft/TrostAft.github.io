@@ -13,11 +13,12 @@ title: Abhijit Chowdhary
 
 ## Activities and Projects
 
-- Math REU @ Ohio University
-  - Worked with [Qiliang Wu](https://sites.google.com/view/qwu/).
+- Math REU @ Ohio University with [Qiliang Wu](https://sites.google.com/view/qwu/).
   - We researched the Nonlinear Stability of the Swift-Hohenberg equation at the
     Zigzag boundary.
   - We managed to prove the result, paper still in draft stages.
+  - Presented by Qiliang at Miami Universities' Forty-Seventh Annual Conference
+    in Differential Equations and Dynamical Systems and their Applications.
 - [See my github](https://github.com/abhijit-c)
   - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
     - [Read the report here](./resources/Parareal.pdf)
