@@ -19,6 +19,7 @@ title: Abhijit Chowdhary
   - We managed to prove the result, paper still in draft stages.
   - Presented by Qiliang at Miami Universities' Forty-Seventh Annual Conference
     in Differential Equations and Dynamical Systems and their Applications.
+    [Here are the slides.](./resources/zigzag.pdf)
 - [See my github](https://github.com/abhijit-c)
   - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
     - [Read the report here](./resources/Parareal.pdf)
