@@ -3,7 +3,9 @@ layout: default
 title: Research 
 ---
 
-## Activities and Projects
+# Research
+
+## Diffusive Stability of the Swift-Hohenberg equation near the Zigzag Boundary.
 
 - Math REU @ Ohio University with [Qiliang Wu](https://sites.google.com/view/qwu/).
   - We researched the Nonlinear Stability of the Swift-Hohenberg equation at the
@@ -22,7 +24,12 @@ title: Research
   - Presented by Qiliang at Miami Universities' Forty-Seventh Annual Conference
     in Differential Equations and Dynamical Systems and their Applications.
     [Here are the slides.](./resources/zigzag.pdf)
-- [See my github](https://github.com/abhijit-c)
-  - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
-    - [Read the report here](./resources/Parareal.pdf)
-  - [ffpoly: Finite field polynomial implementation (WIP)](https://github.com/abhijit-c/ffpoly)
+
+## An investigation into Paraeal
+
+- [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
+  - [Read the report here](./resources/Parareal.pdf)
+
+## ffpoly: Finite field polynomial implementation
+
+- [ffpoly: Finite field polynomial implementation (WIP)](https://github.com/abhijit-c/ffpoly)
