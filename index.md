@@ -4,7 +4,7 @@ title: Abhijit Chowdhary
 ---
 # Abhijit Chowdhary
 
-![](resources/profilepic.jpg){: .center-image }
+![](./profilepic.jpg){: .center-image }
 
 ## About Me
 - Math and CS guy
