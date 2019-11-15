@@ -15,14 +15,18 @@ equation, that is:
 **Theorem:** Given $0 < \varepsilon^2 \ll 1$, the roll solution $u_p(k_z x_1;
 k_z)$, where the zigzag wave number $k_z(\varepsilon) = 1 - 
 \frac{\varepsilon^4}{512} + h.o.t.$, of the 2D SHE
+
 $$
   u_t = [-(1 + \Delta_x)^2 + \varepsilon^2]u -  u^3
 $$
+
 is nonlinearly stable. That is, given initial pertubation from $u_p$ in the form
 $u_0 = u_p + v_0$ where:
+
 $$
 ||\hat{v}_0||_{L^1} ||\hat{v}_0||_{L^\infty} \ll 1
 $$
+
 then $||v(\cdot,t)||_{L^{\infty}} = O \left( t^{-3/4} \right)$.
 
 ![](./resources/SHE/zigzag_boundary.png){: .center-image }
