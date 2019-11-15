@@ -5,6 +5,10 @@ title: Research
 
 # Research
 
+*Note:* I've been told that the math doesn't render nicely on mobile. This is
+a general failing of MathJaX not being responsive; which isn't ideal but
+currently there isn't an amazingly easy way to avoid it.
+
 ## Diffusive Stability of the Swift-Hohenberg equation near the Zigzag Boundary.
 
 During a Math REU @ Ohio University with [Qiliang
@@ -17,17 +21,17 @@ k_z)$, where the zigzag wave number $k_z(\varepsilon) = 1 -
 \frac{\varepsilon^4}{512} + h.o.t.$, of the 2D SHE
 
 $$
-  u_t = [-(1 + \Delta_x)^2 + \varepsilon^2]u -  u^3
+  u_t = \left[-(1 + \Delta_x)^2 + \varepsilon^2\right]u -  u^3
 $$
 
 is nonlinearly stable. That is, given initial pertubation from $u_p$ in the form
 $u_0 = u_p + v_0$ where:
 
 $$
-||\hat{v}_0||_{L^1} ||\hat{v}_0||_{L^\infty} \ll 1
+  ||\hat{v}_0||_{L^1} + ||\hat{v}_0||_{L^\infty} \ll 1
 $$
 
-then $||v(\cdot,t)||_{L^{\infty}} = O \left( t^{-3/4} \right)$.
+then we find that $\mid\mid v(\cdot,t)\mid\mid_{L^{\infty}} = O ( t^{-3/4} )$.
 
 ![](./resources/SHE/zigzag_boundary.png){: .center-image }
 
