@@ -52,20 +52,22 @@ title: Abhijit Chowdhary
     - Computer Systems Organization
     - Data Structures
     - Geometric Modeling (Grad)
-    - High Performance Computing (Grad)
+    - Advanced Topics in Numerical Analysis: High Performance Computing (Grad)
     - Numerical Computing
     - Operating Systems
   - Mathematics
+    - Chaos and Dynamical Systems
     - Honors Algebra I/II
     - Honors Analysis I/II
     - Honors Linear Algebra
     - Honors Probability Theory 
     - Topology 
-    - Chaos and Dynamical Systems
-    - Numerical Methods I/II (Grad)
+    - Advanced Topics in Numerical Analysis: Finite Element Method (Grad)
     - Algebra (Grad)
+    - Methods of Applied Math (Grad)
+    - Numerical Methods I/II (Grad)
     - Partial Differential Equations (Grad)
-  - Latin
+  - Four semesters of Latin
 - University of Maryland (Summer 2017/2018)
   - Complex Variables
   - Elementary Number Theory 
