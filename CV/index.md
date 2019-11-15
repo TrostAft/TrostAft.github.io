@@ -33,12 +33,13 @@ here's the highlights.
   - [ffpoly: Finite field polynomial implementation (WIP)](https://github.com/abhijit-c/ffpoly)
 - TA/Tutor for Basic/Fundamental Algorithms (Fall 2017 - Present)
   - Undergraduate/Graduate algorithms course @ NYU taught by Alan Siegel
-- First Robotics: [Part of Team 2849 Team Ursa Major](http://hammondursamajor.org/)
+- First Robotics: [Part of Team 2849 Team Ursa Major](https://twitter.com/teamursamajor?lang=en)
   - Student Member while in high school (2012-2016)
     - Build team member (2012-2014)
     - Business captain/programming team (2015)
     - Team Captain (2016)
   - Design and programming mentor (2016-Present)
+    - First place in the 2019 FIRST Chesapeake Bethesday event!
   
 ![](https://projecteuler.net/profile/TrostAft.png)
 
