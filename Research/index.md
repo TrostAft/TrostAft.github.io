@@ -57,7 +57,7 @@ slides.](./resources/SHE/zigzag.pdf)
 ## An investigation into Paraeal
 
 - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
-  - [Read the report here](./resources/Parareal.pdf)
+  - [Read the report here](./resources/Parareal/Parareal.pdf)
 
 ## ffpoly: Finite field polynomial implementation
 
