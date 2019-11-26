@@ -52,12 +52,12 @@ The paper is still in draft stages, and thus I cannot upload a sufficiently
 polished copy here, but the topic was presented by by Qiliang at Miami
 Universities' Forty-Seventh Annual Conference in Differential Equations and
 Dynamical Systems and their Applications. [Here are the
-slides.](./resources/SHE/zigzag.pdf)
+slides.](./resources/SHE/slides.pdf)
 
 ## An investigation into Paraeal
 
 - [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
-  - [Read the report here](./resources/Parareal.pdf)
+  - [Read the report here](./resources/Parareal/Parareal.pdf)
 
 ## ffpoly: Finite field polynomial implementation
 
