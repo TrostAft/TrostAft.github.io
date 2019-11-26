@@ -50,7 +50,6 @@ here's the highlights.
     - Computer Systems Organization
     - Data Structures
     - Geometric Modeling (Grad)
-    - Advanced Topics in Numerical Analysis: High Performance Computing (Grad)
     - Numerical Computing
     - Operating Systems
   - Mathematics
@@ -61,6 +60,7 @@ here's the highlights.
     - Honors Probability Theory 
     - Topology 
     - Advanced Topics in Numerical Analysis: Finite Element Method (Grad)
+    - Advanced Topics in Numerical Analysis: High Performance Computing (Grad)
     - Algebra (Grad)
     - Methods of Applied Math (Grad)
     - Numerical Methods I/II (Grad)
