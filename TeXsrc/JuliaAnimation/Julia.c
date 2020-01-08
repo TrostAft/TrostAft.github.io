@@ -6,7 +6,7 @@
 #include <tgmath.h>
 
 #define BOX_SIZE 2.0
-#define NUM_FRAMES 240
+#define NUM_FRAMES 960
 
 int main(int argc, char **argv)
 {
@@ -36,7 +36,7 @@ int main(int argc, char **argv)
       for (int j = 0; j < h; j++)
       {
         complex double z = w_grid[i] + I*h_grid[j];
-        complex double c = -1.0+0.5*sin(angle) + I*0.5*cos(angle);
+        complex double c = -1.0+0.3*cos(angle) + I*0.3*sin(angle);
         int n = 255;
         while (cabs(z) < 10 && n > 0)
         {
