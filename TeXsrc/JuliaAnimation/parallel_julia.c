@@ -6,7 +6,7 @@
 #include <tgmath.h>
 
 #define BOX_SIZE 2.0
-#define NUM_FRAMES 960
+#define NUM_FRAMES 480
 
 int main(int argc, char **argv)
 {
@@ -21,22 +21,20 @@ int main(int argc, char **argv)
   int h = 4*resolution; double h_grid[h];
   for (int i = 0; i < h; i++) { h_grid[i] = -BOX_SIZE + 2*i*BOX_SIZE/h; }
 
-  double angle = 0.0;
-
   #pragma omp parallel for
   for (int frame = 1; frame <= NUM_FRAMES; frame++)
   {
     char filename[50]; sprintf(filename, "%05d.pgm", frame);
     FILE* current_frame = fopen(filename, "w");
-
     fprintf(current_frame, "P2\n\n%d %d\n255\n", w, h);
 
+    double theta = frame*(2*M_PI/NUM_FRAMES);
     for (int i = 0; i < w; i++)
     {
       for (int j = 0; j < h; j++)
       {
         complex double z = w_grid[i] + I*h_grid[j];
-        complex double c = -1.0+0.3*cos(angle) + I*0.3*sin(angle);
+        complex double c = 0.7885*cexp(I*theta);
         int n = 255;
         while (cabs(z) < 10 && n > 0)
         {
@@ -49,8 +47,16 @@ int main(int argc, char **argv)
     }
 
     fclose(current_frame);
+
+    char cmd_buffer[50];
+    sprintf(cmd_buffer, "convert %05d.pgm %05d.png", frame, frame);
+    system(cmd_buffer);
+
     printf("%s\n", filename);
-    angle += 2*M_PI/NUM_FRAMES;
   }
+
+  system("convert -delay 5 -loop 0 *.png animation.gif");
+  system("make clean");
+
   return 0;
 }
