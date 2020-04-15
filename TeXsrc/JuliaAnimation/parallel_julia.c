@@ -3,10 +3,9 @@
 #include <omp.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <tgmath.h>
 
 #define BOX_SIZE 2.0
-#define NUM_FRAMES 480
+#define NUM_FRAMES 240
 
 int main(int argc, char **argv)
 {
@@ -38,7 +37,7 @@ int main(int argc, char **argv)
         int n = 255;
         while (cabs(z) < 10 && n > 0)
         {
-          z = pow(z,2) + c;
+          z = cpow(z,2) + c;
           n = n - 5;
         }
         fprintf(current_frame, "%d ", n);
@@ -55,7 +54,7 @@ int main(int argc, char **argv)
     printf("%s\n", filename);
   }
 
-  system("convert -delay 5 -loop 0 *.png animation.gif");
+  system("convert -delay 3.33 -loop 0 *.png animation.gif");
   system("make clean");
 
   return 0;

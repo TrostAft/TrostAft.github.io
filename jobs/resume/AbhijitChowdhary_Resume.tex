@@ -16,7 +16,7 @@
 \usepackage{tocloft}
 \usepackage{amssymb}
 \usepackage{etoolbox}
-\usepackage{hyperref}
+\usepackage{hyperref, url}
 \robustify\cftdotfill
 
 %-----------------------------------------------------------
@@ -62,8 +62,8 @@
 
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
 \textbf{\Large Abhijit Chowdhary}  & (240)-715-8308\\
-369 Broome Street, Apartment 6 &  abhijit9331@gmail.com \\
-New York, NY & \url{https://abhijit-c.github.io/}\\
+9331 Ridings Way &  abhijit9331@gmail.com \\
+Laurel, MD & \url{https://abhijit-c.github.io/}\\
 \end{tabular*}
 \\
 
@@ -72,9 +72,14 @@ New York, NY & \url{https://abhijit-c.github.io/}\\
 \resheading{Education}
 \begin{itemize}
 \item
+	\ressubheading{North Carolina State University}{Raleigh, NC}{Applied Math PhD,
+  Computational Math Concentration}{Aug. 2020 - Present}
+
+\item
 	\ressubheading{New York University}{New York, NY}{B.A. Joint Mathematics and
-    Computer Science (In Major GPA: 3.657)}{Sep. 2016 - Present}
-	\begin{itemize}
+    Computer Science, Classics Minor}{Sep.2016 - May.2020}
+	\begin{itemize} 
+    \resitem{(In Major GPA: 3.657)}
 		\resitem{Relevant undergraduate courses: 
       Algorithms, 
       Chaos and Dynamical Systems,
@@ -88,6 +93,8 @@ New York, NY & \url{https://abhijit-c.github.io/}\\
       Topology.}
     \resitem{Relevant graduate/PhD courses: 
       Algebra, 
+      Basic Probability,
+      Convex and Nonsmooth Optimization,
       Finite Element Method,
       Fundamental Algorithms, 
       Geometric Modeling, 
@@ -138,23 +145,6 @@ New York, NY & \url{https://abhijit-c.github.io/}\\
 	\end{itemize}
 
 \item
-	\ressubheading{Algebraic Point Set Surfaces Implementation}{}{Geometric
-    Modeling (Grad)}{Apr. 2018 - May. 2018}
-	\begin{itemize}
-		\resitem{For a class final project, I implemented the theory in the
-        paper \textit{Algebraic Point Set Surfaces} by Ga\={e}l Gunnebaud and
-        Markus Gross from ETH Zurich.}
-        \resitem{The Paper presented an alternative method to take a point cloud
-        to a triangularized mesh, and another method to estimate normals from a
-        point cloud using algebraic fitting of a sphere.}
-		\resitem{This was mostly a challenge in comprehension of the paper and
-		implementation, notably fighting with Eigen to try and constuct and
-		solve the sytems in an efficient manner.}
-        \resitem{Heavy use of the libraries Eigen, libigl, and nanoflann.
-        Written in C++.}
-	\end{itemize}
-
-\item
   \ressubheading{Parareal}{}{High Performance Computing and Numerical Methods
   II (Grad)}{Apr. 2019 - May 2019}
 	\begin{itemize}
@@ -170,13 +160,31 @@ New York, NY & \url{https://abhijit-c.github.io/}\\
 	\end{itemize}
 
 \item
+	\ressubheading{Algebraic Point Set Surfaces Implementation}{}{Geometric
+    Modeling (Grad)}{Apr. 2018 - May. 2018}
+	\begin{itemize}
+		\resitem{For a class final project, I implemented the theory in the
+        paper \textit{Algebraic Point Set Surfaces} by Ga\={e}l Gunnebaud and
+        Markus Gross from ETH Zurich.}
+    \resitem{The Paper presented an alternative method to take a point cloud
+      to a triangularized mesh, and another method to estimate normals from a
+      point cloud using algebraic fitting of a sphere.}
+		\resitem{This was mostly a challenge in comprehension of the paper and
+      implementation, notably fighting with Eigen to try and constuct and
+      solve the sytems in an efficient manner.}
+    \resitem{Heavy use of the libraries Eigen, libigl, and nanoflann.
+      Written in C++.}
+	\end{itemize}
+
+\item
 	\ressubheading{ffpoly}{}{Personal Project}{Dec. 2018 - Present}
 	\begin{itemize}
 		\resitem{After learning some algebraic number theory in my graduate
         algebra course, I decided to code an implementation of elements of the
         polynomial field $\mathbb{F}_n[x]$.}
         \resitem{Still in the infancy stages of the project and learning some of
-        the theory in computational algebraic number theory as I code.}
+        the theory in computational algebraic number theory as I code.
+        I eventually plan to come back to this.}
         \resitem{You can see the project here:
         https://github.com/abhijit-c/ffpoly}
 	\end{itemize}
@@ -210,10 +218,10 @@ New York, NY & \url{https://abhijit-c.github.io/}\\
 \begin{description}
 \item[Programming and Markup Languages:]
 C, C++, Python, Matlab, Mathematica, \LaTeX.
+\item[Libraries and Technologies:]
+OpenMP, MPI, HPC Tooling (slurm, etc.), CUDA and ROCm (learning)
 \item[Languages:]
-English, Latin, Broken Hindi
-\item[Operating Systems:]
-Linux (Arch Linux laptop, Debian desktop)
+English, Latin, Somewhat broken Hindi
 \item[Minor Mechanical Fabrication Skills]
 \end{description}
 
