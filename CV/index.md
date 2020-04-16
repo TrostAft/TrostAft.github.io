@@ -59,9 +59,11 @@ here's the highlights.
     - Honors Linear Algebra
     - Honors Probability Theory 
     - Topology 
+    - Advanced Topics in Numerical Analysis: Convex and Nonsmooth Optimization (Grad)
     - Advanced Topics in Numerical Analysis: Finite Element Method (Grad)
     - Advanced Topics in Numerical Analysis: High Performance Computing (Grad)
     - Algebra (Grad)
+    - Basic Probability (Grad)
     - Methods of Applied Math (Grad)
     - Numerical Methods I/II (Grad)
     - Partial Differential Equations (Grad)
