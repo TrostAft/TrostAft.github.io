@@ -7,7 +7,7 @@ title: Research
 
 *Note:* I've been told that the math doesn't render nicely on mobile. This is
 a general failing of MathJaX not being responsive; which isn't ideal but
-currently there isn't an amazingly easy way to avoid it.
+currently there isn't an easy way to avoid it.
 
 ## Diffusive Stability of the Swift-Hohenberg equation near the Zigzag Boundary.
 
@@ -56,9 +56,10 @@ slides.](./resources/SHE/slides.pdf)
 
 ## An investigation into Paraeal
 
-- [Parareal: Parallel-in-time numerical ODE solver implementation](https://github.com/abhijit-c/Parareal)
-  - [Read the report here](./resources/Parareal/Parareal.pdf)
-
-## ffpoly: Finite field polynomial implementation
-
-- [ffpoly: Finite field polynomial implementation (WIP)](https://github.com/abhijit-c/ffpoly)
+For the *Advanced Topics in Numerical Analysis: High Performance Computing*
+course (a mouthful) I took in spring 2019 with Georg Stadler and Dhairya
+Malhotra, I wrote a topic paper on Parareal, a parallel-in-time ODE integrator.
+You can find the [github repository
+here](https://github.com/abhijit-c/Parareal), and more importantly you can read
+the [slides](./resources/Parareal/Parareal_Slides.pdf) and the
+[report](./resources/Parareal/Parareal.pdf)
