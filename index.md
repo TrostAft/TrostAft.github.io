@@ -6,6 +6,8 @@ title: Abhijit Chowdhary
 
 ![](./profilepic.jpg){: .center-image }
 
+[See here for a non-COVID image!](./profilepic_old.jpg)
+
 ## About Me
 - Ph.D. student in Applied (Computational) Math at NCSU.
 - Research interests in the theory and practice of computational mathematics,
