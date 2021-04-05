@@ -6,7 +6,7 @@ title: Research
 # Research
 
 *Note:* I've been told that the math doesn't render nicely on mobile. This is
-a general failing of MathJaX not being responsive; which isn't ideal but
+a general failing of MathJaX not being responsive, which isn't ideal, but
 currently there isn't an easy way to avoid it.
 
 ## Diffusive Stability of the Swift-Hohenberg equation near the Zigzag Boundary.
