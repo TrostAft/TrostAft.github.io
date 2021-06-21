@@ -12,7 +12,7 @@ title: Abhijit Chowdhary
 
 - 2nd year Ph.D. student in Applied Math at NCSU.
   - Advisor: [Dr. Alen Alexanderian](https://aalexan3.math.ncsu.edu/)
-- BA in Math and Computer Science and Minor in Classical Studies at NYU.
+- BA in Math and Computer Science with minor in Classical Studies at NYU.
 
 ## Research Interests
 
@@ -23,7 +23,8 @@ emphasis on scalable methods, e.g.
   - Randomzied approaches
 
 Recently I've been working on methods for
-- Inverse problems and PDE-constrained optimization
+- Inverse problems
+- PDE-constrained optimization
 - Optimal experimental design
 - Uncertainty quantification for the above
 
