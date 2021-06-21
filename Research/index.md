@@ -33,7 +33,7 @@ $$
 
 then we find that $\mid\mid v(\cdot,t)\mid\mid_{L^{\infty}} = O ( t^{-3/4} )$.
 
-![](./resources/SHE/zigzag_boundary.png){: .center-image }
+![](/storage/SHE/zigzag_boundary.png){: .center-image }
 
 My main contributions were in:
 
