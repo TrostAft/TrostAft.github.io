@@ -13,5 +13,5 @@ please feel free to email me at my \*.edu email.
 
 ## Topic Papers
 
-- [Parareal: A Parallel-in-time integrator](./resources/Parareal/Parareal.pdf)
-- [HOGWILD!:](./resources/Hogwild.pdf)
+- [Parareal: A Parallel-in-time integrator](/resources/Parareal/Parareal.pdf)
+- [HOGWILD!:](/resources/Hogwild.pdf)
