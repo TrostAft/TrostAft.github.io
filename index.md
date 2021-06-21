@@ -19,8 +19,8 @@ title: Abhijit Chowdhary
 In general, I'm interested in the theory and practice of computational math with
 emphasis on scalable methods, e.g.
   - Parallelization
-  - GPU acceleration
   - Randomzied approaches
+  - GPU acceleration
 
 Recently I've been working on methods for
 - Inverse problems
