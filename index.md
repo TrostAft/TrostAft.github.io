@@ -10,6 +10,7 @@ title: Abhijit Chowdhary
 
 ## About Me
 - 2nd year Ph.D. student in Applied Math at NCSU.
+  - Advisor: [Dr. Alen Alexanderian](https://aalexan3.math.ncsu.edu/)
 - Research interests in the theory and practice of computational mathematics,
   with emphasis on scalable methods (parallelization, randomized approaches,
   GPU acceleration, etc). Currently focused on computational inverse problems,
