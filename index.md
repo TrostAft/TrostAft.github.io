@@ -19,10 +19,10 @@ title: Abhijit Chowdhary
 In general, I'm interested in the theory and practice of computational math with
 emphasis on scalable methods, e.g.
   - Parallelization
-  - Randomzied approaches
   - GPU acceleration
+  - Randomized and stochastic approaches
 
-Recently I've been working on methods for
+Recently I've been working on theory and methods for
 - Inverse problems
 - PDE-constrained optimization
 - Optimal experimental design
@@ -33,4 +33,5 @@ Recently I've been working on methods for
   - Computer hardware and GNU/Linux.
   - Ancient Roman poetry (particularily Ovid's exile writings).
   - High fantasy and xianxia novels.
+  - eSports (Dota 2 currently consuming me)
 - Not great at web design (sorry).
