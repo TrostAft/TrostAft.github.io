@@ -8,7 +8,7 @@ title: Abhijit Chowdhary
 
 [See here for a non-COVID image!](./profilepic_old.jpg)
 
-<img style="float: left;" src="profilepic.jpg">
+<img style="float: left; margin-right: 5px" src="profilepic.jpg">
 
 ## About Me
 
