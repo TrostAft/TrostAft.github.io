@@ -8,6 +8,8 @@ title: Abhijit Chowdhary
 
 [See here for a non-COVID image!](./profilepic_old.jpg)
 
+<img style="float: left;" src="profilepic.jpg">
+
 ## About Me
 
 - 2nd year Ph.D. student in Applied Math at NCSU.
