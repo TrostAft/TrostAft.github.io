@@ -4,7 +4,7 @@ title: Abhijit Chowdhary
 ---
 # Abhijit Chowdhary
 
-<img style="float: left; margin-right: 5px" src="profilepic.jpg">
+<img style="float: left; margin-right: 10px" src="profilepic.jpg">
 
 ## About Me
 
