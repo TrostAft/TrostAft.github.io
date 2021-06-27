@@ -14,13 +14,8 @@ title: Abhijit Chowdhary
 
 ## Research Interests
 
-In general, I'm interested in the theory and practice of computational math with
-emphasis on scalable methods, e.g.
-  - Parallelization
-  - GPU acceleration
-  - Randomized and stochastic approaches
-
-Recently I've been working on theory and methods for
+In general, I'm interested in the theory and practice of computational math. Recently, that has
+brought me to the randomized numerical analysis group here at NCSU, working on ideas for:
 - Inverse problems
 - PDE-constrained optimization
 - Optimal experimental design
