@@ -4,10 +4,6 @@ title: Abhijit Chowdhary
 ---
 # Abhijit Chowdhary
 
-![](./profilepic.jpg){: .center-image }
-
-[See here for a non-COVID image!](./profilepic_old.jpg)
-
 <img style="float: left; margin-right: 5px" src="profilepic.jpg">
 
 ## About Me
