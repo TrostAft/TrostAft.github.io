@@ -53,13 +53,3 @@ polished copy here, but the topic was presented by by Qiliang at Miami
 Universities' Forty-Seventh Annual Conference in Differential Equations and
 Dynamical Systems and their Applications. [Here are the
 slides.](/storage/SHE/slides.pdf)
-
-## An investigation into Paraeal
-
-For the *Advanced Topics in Numerical Analysis: High Performance Computing*
-course (a mouthful) I took in spring 2019 with Georg Stadler and Dhairya
-Malhotra, I wrote a topic paper on Parareal, a parallel-in-time ODE integrator.
-You can find the [github repository
-here](https://github.com/abhijit-c/Parareal), and more importantly you can read
-the [slides](/storage/Parareal/Parareal_Slides.pdf) and the
-[report](/storage/Parareal/Parareal.pdf)
